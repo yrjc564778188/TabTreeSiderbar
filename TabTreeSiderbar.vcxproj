@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8,00"
+	Name="TabTreeSiderbar"
+	ProjectGUID="{A26A3A7D-D9F3-3B83-8595-9491E5284871}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="x64" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|x64"
+			OutputDirectory="release\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="release\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories=".,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtQuick,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtWidgets,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtGui,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtANGLE,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtQml,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtNetwork,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtCore,release,.,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\mkspecs\win32-msvc"
+				AdditionalOptions="-w34100 -w34189 -w44996"
+				AssemblerListingLocation="release\"
+				DebugInformationFormat="0"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="release\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,_UNICODE,WIN32,WIN64,QT_DEPRECATED_WARNINGS,QT_NO_DEBUG,QT_QUICK_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,QT_QML_LIB,QT_NETWORK_LIB,QT_CORE_LIB,NDEBUG"
+				ProgramDataBaseFileName=""
+				RuntimeLibrary="2"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\qtmain.lib shell32.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Quick.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Widgets.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Gui.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Qml.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Network.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Core.lib"
+				AdditionalLibraryDirectories="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib,C:\openssl\lib,C:\Utils\my_sql\my_sql\lib,C:\Utils\postgresql\pgsql\lib,$(QTDIR)\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				DataExecutionPrevention="true"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\TabTreeSiderbar.exe"
+				ProgramDatabaseFile=""
+				RandomizedBaseAddress="true"
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCManifestTool" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,_UNICODE,WIN32,WIN64,QT_DEPRECATED_WARNINGS,QT_NO_DEBUG,QT_QUICK_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,QT_QML_LIB,QT_NETWORK_LIB,QT_CORE_LIB" />
+			<DeploymentTool
+				RemoteDirectory="%CSIDL_PROGRAM_FILES%\TabTreeSiderbar"
+				RegisterOutput="0"
+				AdditionalFiles="Qt5Quick.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;Qt5Widgets.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;Qt5Gui.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;Qt5Qml.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;Qt5Network.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;Qt5Core.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;" />
+		</Configuration>
+		<Configuration
+			Name="Debug|x64"
+			OutputDirectory="debug\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="debug\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories=".,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtQuick,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtWidgets,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtGui,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtANGLE,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtQml,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtNetwork,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\include\QtCore,debug,.,F:\QT\QT5.9.6\5.9.6\MSVC2017_64\mkspecs\win32-msvc"
+				AdditionalOptions="-w34100 -w34189 -w44996"
+				AssemblerListingLocation="debug\"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="debug\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,_UNICODE,WIN32,WIN64,QT_DEPRECATED_WARNINGS,QT_QUICK_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,QT_QML_LIB,QT_NETWORK_LIB,QT_CORE_LIB"
+				ProgramDataBaseFileName=""
+				RuntimeLibrary="3"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\qtmaind.lib shell32.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Quickd.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Widgetsd.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Guid.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Qmld.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Networkd.lib F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib\Qt5Cored.lib"
+				AdditionalLibraryDirectories="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\lib,C:\openssl\lib,C:\Utils\my_sql\my_sql\lib,C:\Utils\postgresql\pgsql\lib,$(QTDIR)\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				DataExecutionPrevention="true"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\TabTreeSiderbar.exe"
+				ProgramDatabaseFile=""
+				RandomizedBaseAddress="true"
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCManifestTool" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,_UNICODE,WIN32,WIN64,QT_DEPRECATED_WARNINGS,QT_QUICK_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,QT_QML_LIB,QT_NETWORK_LIB,QT_CORE_LIB,_DEBUG" />
+			<DeploymentTool
+				RemoteDirectory="%CSIDL_PROGRAM_FILES%\TabTreeSiderbar"
+				RegisterOutput="0"
+				AdditionalFiles="Qt5Quickd.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;Qt5Widgetsd.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;Qt5Guid.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;qwindowsd.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\plugins\platforms|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar\platforms|0;Qt5Qmld.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;Qt5Networkd.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;Qt5Cored.dll|F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin|%CSIDL_PROGRAM_FILES%\TabTreeSiderbar|0;" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="tree\old\TreeItems.cpp" />
+			<File
+				RelativePath="tree\old\TreeModels.cpp" />
+			<File
+				RelativePath="tree\TreeSearch.cpp" />
+			<File
+				RelativePath="main.cpp" />
+			<File
+				RelativePath="tree\treeitem.cpp" />
+			<File
+				RelativePath="tree\treemodel.cpp" />
+			<File
+				RelativePath="treeviewwidget.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="tree\old\TreeItems.h" />
+			<File
+				RelativePath="tree\old\TreeModels.h">
+				<FileConfiguration
+					Name="Release|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="tree\old\TreeModels.h;release\moc_predefs.h;F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe"
+						CommandLine="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include release/moc_predefs.h -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/mkspecs/win32-msvc -ID:/C++Test/QT/TabTreeSiderbar -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQuick -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtWidgets -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtGui -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtANGLE -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQml -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtNetwork -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtCore -I&quot;x:\program files (x86)\devstudio\vc\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\atl\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\mfc\include&quot; -I%include% -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\ATLMFC\include&quot; -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\include&quot; -I&quot;X:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\ucrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\shared&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\winrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\cppwinrt&quot; tree\old\TreeModels.h -o release\moc_TreeModels.cpp"
+						Description="MOC tree/old/TreeModels.h"
+						Outputs="release\moc_TreeModels.cpp"
+						Path="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="tree\old\TreeModels.h;debug\moc_predefs.h;F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe"
+						CommandLine="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DEPRECATED_WARNINGS -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include debug/moc_predefs.h -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/mkspecs/win32-msvc -ID:/C++Test/QT/TabTreeSiderbar -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQuick -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtWidgets -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtGui -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtANGLE -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQml -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtNetwork -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtCore -I&quot;x:\program files (x86)\devstudio\vc\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\atl\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\mfc\include&quot; -I%include% -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\ATLMFC\include&quot; -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\include&quot; -I&quot;X:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\ucrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\shared&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\winrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\cppwinrt&quot; tree\old\TreeModels.h -o debug\moc_TreeModels.cpp"
+						Description="MOC tree/old/TreeModels.h"
+						Outputs="debug\moc_TreeModels.cpp"
+						Path="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tree\TreeSearch.h">
+				<FileConfiguration
+					Name="Release|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="tree\TreeSearch.h;release\moc_predefs.h;F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe"
+						CommandLine="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include release/moc_predefs.h -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/mkspecs/win32-msvc -ID:/C++Test/QT/TabTreeSiderbar -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQuick -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtWidgets -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtGui -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtANGLE -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQml -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtNetwork -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtCore -I&quot;x:\program files (x86)\devstudio\vc\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\atl\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\mfc\include&quot; -I%include% -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\ATLMFC\include&quot; -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\include&quot; -I&quot;X:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\ucrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\shared&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\winrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\cppwinrt&quot; tree\TreeSearch.h -o release\moc_TreeSearch.cpp"
+						Description="MOC tree/TreeSearch.h"
+						Outputs="release\moc_TreeSearch.cpp"
+						Path="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="tree\TreeSearch.h;debug\moc_predefs.h;F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe"
+						CommandLine="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DEPRECATED_WARNINGS -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include debug/moc_predefs.h -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/mkspecs/win32-msvc -ID:/C++Test/QT/TabTreeSiderbar -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQuick -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtWidgets -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtGui -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtANGLE -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQml -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtNetwork -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtCore -I&quot;x:\program files (x86)\devstudio\vc\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\atl\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\mfc\include&quot; -I%include% -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\ATLMFC\include&quot; -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\include&quot; -I&quot;X:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\ucrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\shared&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\winrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\cppwinrt&quot; tree\TreeSearch.h -o debug\moc_TreeSearch.cpp"
+						Description="MOC tree/TreeSearch.h"
+						Outputs="debug\moc_TreeSearch.cpp"
+						Path="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tree\treeitem.h" />
+			<File
+				RelativePath="tree\treemodel.h" />
+			<File
+				RelativePath="treeviewwidget.h">
+				<FileConfiguration
+					Name="Release|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="treeviewwidget.h;release\moc_predefs.h;F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe"
+						CommandLine="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include release/moc_predefs.h -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/mkspecs/win32-msvc -ID:/C++Test/QT/TabTreeSiderbar -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQuick -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtWidgets -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtGui -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtANGLE -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQml -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtNetwork -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtCore -I&quot;x:\program files (x86)\devstudio\vc\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\atl\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\mfc\include&quot; -I%include% -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\ATLMFC\include&quot; -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\include&quot; -I&quot;X:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\ucrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\shared&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\winrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\cppwinrt&quot; treeviewwidget.h -o release\moc_treeviewwidget.cpp"
+						Description="MOC treeviewwidget.h"
+						Outputs="release\moc_treeviewwidget.cpp"
+						Path="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="treeviewwidget.h;debug\moc_predefs.h;F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe"
+						CommandLine="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DEPRECATED_WARNINGS -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include debug/moc_predefs.h -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/mkspecs/win32-msvc -ID:/C++Test/QT/TabTreeSiderbar -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQuick -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtWidgets -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtGui -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtANGLE -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtQml -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtNetwork -IF:/QT/QT5.9.6/5.9.6/MSVC2017_64/include/QtCore -I&quot;x:\program files (x86)\devstudio\vc\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\atl\include&quot; -I&quot;x:\program files (x86)\devstudio\vc\mfc\include&quot; -I%include% -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\ATLMFC\include&quot; -I&quot;X:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.15.26726\include&quot; -I&quot;X:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\ucrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\shared&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\um&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\winrt&quot; -I&quot;F:\Windows Kits\10\include\10.0.17134.0\cppwinrt&quot; treeviewwidget.h -o debug\moc_treeviewwidget.cpp"
+						Description="MOC treeviewwidget.h"
+						Outputs="debug\moc_treeviewwidget.cpp"
+						Path="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="debug\moc_TreeModels.cpp">
+				<FileConfiguration
+					Name="Release|x64"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_TreeModels.cpp">
+				<FileConfiguration
+					Name="Debug|x64"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_TreeSearch.cpp">
+				<FileConfiguration
+					Name="Release|x64"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_TreeSearch.cpp">
+				<FileConfiguration
+					Name="Debug|x64"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_predefs.h.cbt">
+				<FileConfiguration
+					Name="Release|x64"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Debug|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\mkspecs\features\data\dummy.cpp"
+						CommandLine="cl -Bx&quot;$(QTDIR)\bin\qmake.exe&quot; -nologo -Zc:wchar_t -Zi -MDd -W3 -w34100 -w34189 -w44996 -E F:\QT\QT5.9.6\5.9.6\MSVC2017_64\mkspecs\features\data\dummy.cpp 2>NUL >debug\moc_predefs.h"
+						Description="Generate moc_predefs.h"
+						Outputs="debug\moc_predefs.h"
+						Path="." />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_predefs.h.cbt">
+				<FileConfiguration
+					Name="Release|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\mkspecs\features\data\dummy.cpp"
+						CommandLine="cl -Bx&quot;$(QTDIR)\bin\qmake.exe&quot; -nologo -Zc:wchar_t -O2 -MD -W3 -w34100 -w34189 -w44996 -E F:\QT\QT5.9.6\5.9.6\MSVC2017_64\mkspecs\features\data\dummy.cpp 2>NUL >release\moc_predefs.h"
+						Description="Generate moc_predefs.h"
+						Outputs="release\moc_predefs.h"
+						Path="." />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_treeviewwidget.cpp">
+				<FileConfiguration
+					Name="Release|x64"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_treeviewwidget.cpp">
+				<FileConfiguration
+					Name="Debug|x64"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\qrc_qml.cpp">
+				<FileConfiguration
+					Name="Release|x64"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\qrc_qml.cpp">
+				<FileConfiguration
+					Name="Debug|x64"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="ui_treeView.h" />
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="false">
+			<File
+				RelativePath="treeView.ui">
+				<FileConfiguration
+					Name="Release|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="treeView.ui;F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\uic.exe"
+						CommandLine="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\uic.exe treeView.ui -o ui_treeView.h"
+						Description="UIC treeView.ui"
+						Outputs="ui_treeView.h"
+						Path="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="treeView.ui;F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\uic.exe"
+						CommandLine="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\uic.exe treeView.ui -o ui_treeView.h"
+						Description="UIC treeView.ui"
+						Outputs="ui_treeView.h"
+						Path="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="TabWidget.qml" />
+			<File
+				RelativePath="main.qml" />
+			<File
+				RelativePath="images\qml-tabwidget-example.png" />
+			<File
+				RelativePath="qml.qrc">
+				<FileConfiguration
+					Name="Release|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="qml.qrc;F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\rcc.exe;TabWidget.qml;main.qml;images\tab.png;images\qml-tabwidget-example.png"
+						CommandLine="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\rcc.exe -name qml qml.qrc -o release\qrc_qml.cpp"
+						Description="RCC qml.qrc"
+						Outputs="release\qrc_qml.cpp"
+						Path="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="qml.qrc;F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\rcc.exe;TabWidget.qml;main.qml;images\tab.png;images\qml-tabwidget-example.png"
+						CommandLine="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin\rcc.exe -name qml qml.qrc -o debug\qrc_qml.cpp"
+						Description="RCC qml.qrc"
+						Outputs="debug\qrc_qml.cpp"
+						Path="F:\QT\QT5.9.6\5.9.6\MSVC2017_64\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="images\tab.png" />
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
