@@ -10,7 +10,6 @@
 #include <QQuickItem>
 #include <tree/TreeSearch.h>
 #include <tree/treemodel.h>
-#include <tree/old/TreeModels.h>
 
 int main(int argc, char *argv[])
 {
