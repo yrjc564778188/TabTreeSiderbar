@@ -19,8 +19,7 @@ SOURCES += \
         main.cpp \
     tree/TreeSearch.cpp \
     tree/treeitem.cpp \
-    tree/treemodel.cpp \
-    treeviewwidget.cpp
+    tree/treemodel.cpp
 
 RESOURCES += qml.qrc
 
@@ -38,8 +37,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     tree/TreeSearch.h \
     tree/treeitem.h \
-    tree/treemodel.h \
-    treeviewwidget.h
+    tree/treemodel.h
 
 DISTFILES +=
 
