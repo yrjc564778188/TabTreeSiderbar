@@ -4,7 +4,6 @@
 #include <QStandardItemModel>
 
 
-
 class treeItem : public QStandardItem
 {
 public:

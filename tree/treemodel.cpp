@@ -173,12 +173,17 @@ Qt::CheckState treeModel::checkSibling(QStandardItem * item)
     return Qt::Checked;
 }
 
+void treeModel::treeItemClicked(QModelIndex index)
+{
+    QStandardItem *item = static_cast<QStandardItem *>(index.internalPointer());
+    treeItemChanged(item);
+}
 
 void treeModel::treeItemChanged ( QStandardItem * item )
 {
     if ( item == nullptr )
     return ;
-    if ( item -> isCheckable ())
+    //if ( item -> isCheckable ())
     {
         //如果条目是存在复选框的，那么就进行下面的操作
         Qt :: CheckState state = item -> checkState (); //获取当前的选择状态

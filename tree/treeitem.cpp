@@ -1,6 +1,7 @@
 ﻿#include "treeitem.h"
 
 treeItem::treeItem()
+    :QStandardItem("")
 {}
 
 treeItem::treeItem(QString text)

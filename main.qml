@@ -24,7 +24,7 @@ ApplicationWindow {
         id: treeSearch
         onExpandModel:{
             treeView.expand(indexSearched)
-            console.log("treeSearch");
+//            console.log("treeSearch");
         }
     }
 
@@ -126,18 +126,18 @@ ApplicationWindow {
                 //selection: sel
                 headerVisible: false
                 width: parent.width - 20
-                alternatingRowColors: false //背景交替
-                backgroundVisible: false  //背景
+                alternatingRowColors: true //背景交替
+                backgroundVisible: true  //背景
                 selection: ItemSelectionModel {
                     model: treeModel
 
                 }
-                selectionMode: SelectionMode.NoSelection // 多选
-                Component.onCompleted: {
-                    //model = treeModel.model();
-                    model = treeModel;
-                    print(model);
-                }
+//                selectionMode: SelectionMode.NoSelection // 多选
+//                Component.onCompleted: {
+//                    //model = treeModel.model();
+//                    model = treeModel;
+//                    print(model);
+//                }
 
                 itemDelegate: CheckBox {
                     id: checkID
@@ -161,6 +161,7 @@ ApplicationWindow {
 //                    console.log("onClicked", index)
 //                    console.log("isExpanded", isExpanded(index))
                     //emit: treeView.expand(index)
+                    treeModel.treeItemClicked(index)
                 }
 
             }

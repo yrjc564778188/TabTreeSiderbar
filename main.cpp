@@ -49,8 +49,6 @@ int main(int argc, char *argv[])
 /////////////////////////////////////////////////////////////////////////////
 
     qmlRegisterType<treeModel>("component.TreeModel", 1, 0, "TreeModel");
-
-//    qmlRegisterType<TreeModels>("component.TreeModel", 1, 0, "TreeModel");
     qmlRegisterType<TreeSearch>("component.TreeSearch", 1, 0, "TreeSearch");
 
     QQmlEngine engine;
