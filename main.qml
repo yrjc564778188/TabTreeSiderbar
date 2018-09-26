@@ -141,15 +141,21 @@ ApplicationWindow {
 
                 itemDelegate: CheckBox {
                     id: checkID
-                    activeFocusOnPress: true
+                    activeFocusOnPress: false
                     //color: styleData.textColor
                     //elide: styleData.elideMode
-
+//                    checkedState: Qt.PartiallyChecked
+                    checkedState: treeModel.getState(styleData.index)
                     text: styleData.value
                     onTextChanged: {
                         print(text)
                     }
+                    onClicked: {
+                        print(checkedState)
+                        treeModel.treeItemClicked(styleData.index, checkedState)
+                    }
                 }
+
 
                 TableViewColumn {
                     horizontalAlignment: Qt.AlignLeft;
@@ -157,12 +163,14 @@ ApplicationWindow {
                     title: "2"
                     role: "display"
                 }
-                onClicked: {
-//                    console.log("onClicked", index)
-//                    console.log("isExpanded", isExpanded(index))
-                    //emit: treeView.expand(index)
-                    treeModel.treeItemClicked(index)
-                }
+
+//                onClicked: {
+////                    console.log("onClicked", index)
+////                    console.log("isExpanded", isExpanded(index))
+//                    //emit: treeView.expand(index)
+//                    treeModel.treeItemClicked(index)
+//                }
+
 
             }
 

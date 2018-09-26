@@ -16,8 +16,8 @@ public:
 private:
     //QList<treeItem*> m_treeRoot;//树的根节点
 public slots:
-    void treeItemClicked(QModelIndex index);
-
+    void treeItemClicked(QModelIndex index, int checkedState);
+    Qt::CheckState getState(QModelIndex index);
 private slots:
 
     void treeItemChanged(QStandardItem * item);

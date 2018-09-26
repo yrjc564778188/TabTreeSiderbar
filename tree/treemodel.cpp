@@ -17,7 +17,7 @@ treeModel::treeModel(QObject *parent)
     fstItem->appendRow(fstItem1);
     fstItem->appendRow(fstItem2);
     fstItem->appendRow(fstItem3);
-
+    QStandardItem * testparent  = fstItem3->parent();
     treeItem *trdItem1 = new treeItem(tr("第三级子菜单1"));
     treeItem *trdItem2 = new treeItem(tr("第三级子菜单2"));
     treeItem *trdItem3 = new treeItem(tr("第三级子菜单3"));
@@ -173,17 +173,40 @@ Qt::CheckState treeModel::checkSibling(QStandardItem * item)
     return Qt::Checked;
 }
 
-void treeModel::treeItemClicked(QModelIndex index)
+void treeModel::treeItemClicked(QModelIndex index, int checkedState)
+{
+    QStandardItem *item = QStandardItemModel::itemFromIndex(index);
+    QStandardItem * parent = item->parent();
+    QModelIndex parenttest;
+    if(parent)
+    {
+        parenttest = parent->index();
+        parent->setCheckable(true);
+    }
+
+    QModelIndex test = item->index();
+    if(item)
+    {
+        item->setCheckable(true);
+        item->setCheckState(static_cast<Qt::CheckState>(checkedState));
+        emit itemChanged(item);
+    }
+
+    //treeItemChanged(item);
+}
+
+Qt::CheckState treeModel::getState(QModelIndex index)
 {
     QStandardItem *item = static_cast<QStandardItem *>(index.internalPointer());
-    treeItemChanged(item);
+    Qt::CheckState state = item->checkState();
+    return state;
 }
 
 void treeModel::treeItemChanged ( QStandardItem * item )
 {
     if ( item == nullptr )
     return ;
-    //if ( item -> isCheckable ())
+    if ( item -> isCheckable ())
     {
         //如果条目是存在复选框的，那么就进行下面的操作
         Qt :: CheckState state = item -> checkState (); //获取当前的选择状态
