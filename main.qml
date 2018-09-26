@@ -144,14 +144,14 @@ ApplicationWindow {
                     activeFocusOnPress: false
                     //color: styleData.textColor
                     //elide: styleData.elideMode
-//                    checkedState: Qt.PartiallyChecked
+//                  partiallyCheckedEnabled: true
                     checkedState: treeModel.getState(styleData.index)
                     text: styleData.value
-                    onTextChanged: {
-                        print(text)
-                    }
+//                    onTextChanged: {
+//                        print(text)
+//                    }
                     onClicked: {
-                        print(checkedState)
+//                        print(checkedState)
                         treeModel.treeItemClicked(styleData.index, checkedState)
                     }
                 }

@@ -17,7 +17,6 @@ treeModel::treeModel(QObject *parent)
     fstItem->appendRow(fstItem1);
     fstItem->appendRow(fstItem2);
     fstItem->appendRow(fstItem3);
-    QStandardItem * testparent  = fstItem3->parent();
     treeItem *trdItem1 = new treeItem(tr("第三级子菜单1"));
     treeItem *trdItem2 = new treeItem(tr("第三级子菜单2"));
     treeItem *trdItem3 = new treeItem(tr("第三级子菜单3"));
@@ -197,15 +196,21 @@ void treeModel::treeItemClicked(QModelIndex index, int checkedState)
 
 Qt::CheckState treeModel::getState(QModelIndex index)
 {
-    QStandardItem *item = static_cast<QStandardItem *>(index.internalPointer());
-    Qt::CheckState state = item->checkState();
+    QStandardItem *item = QStandardItemModel::itemFromIndex(index);
+    Qt::CheckState state = Qt::Unchecked;
+    if(item)
+    {
+        QVariant itemText;
+        itemText = item->data();
+        state = item->checkState();
+    }
     return state;
 }
 
 void treeModel::treeItemChanged ( QStandardItem * item )
 {
     if ( item == nullptr )
-    return ;
+        return ;
     if ( item -> isCheckable ())
     {
         //如果条目是存在复选框的，那么就进行下面的操作
